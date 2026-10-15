@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Aganmwonyi — Principal Product & UX Designer</title>
+  <meta name="description" content="Portfolio of Alex Aganmwonyi, Principal UI/UX & Product Designer specializing in product design systems, mobile apps, and scalable web platforms. Featuring IKU and EduPulse." />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="dark">
+
+  <!-- Header Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <button id="brand-button" class="brand-btn">Alex Aganmwonyi</button>
+      </div>
+
+      <nav class="nav-links" id="main-nav">
+        <a href="#work" class="nav-link">Selected Work</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
+
+      <nav class="nav-links case-study-links hidden" id="case-study-nav">
+        <button id="nav-iku-btn" class="nav-case-btn">IKU Case Study</button>
+        <span class="nav-divider">/</span>
+        <button id="nav-edupulse-btn" class="nav-case-btn">EduPulse Case Study</button>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">
+          <svg id="sun-icon" class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+          <svg id="moon-icon" class="icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+        </button>
+        <button id="contact-modal-btn" class="btn btn-primary">
+          <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          <span>Get in touch</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main View Container -->
+  <main id="app-content">
+
+    <!-- OVERVIEW VIEW -->
+    <div id="view-overview" class="view-section">
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="subhead-status">
+            <div class="status-indicator">
+              <span class="ping-dot"></span>
+              <span class="static-dot"></span>
+              <span>Available for Q3/Q4 Design Systems & Product Advisory</span>
+            </div>
+            <span class="subhead-divider">•</span>
+            <div class="location-badge">
+              <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span>Lagos & Remote (GMT+1)</span>
+            </div>
+          </div>
+
+          <div class="hero-content">
+            <h1 class="hero-headline">
+              Principal UI/UX & Product Designer building resilient <span class="serif-italic">design systems</span>, native mobile apps, and scalable SaaS platforms.
+            </h1>
+            <p class="hero-description">
+              Bridging operational ambiguity into high-converting, craft-led digital products. Currently exploring localized event discovery with <strong>IKU</strong> and atomic enterprise architecture with <strong>EduPulse</strong>.
+            </p>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">
+              <span>Explore Selected Work</span>
+              <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+            </a>
+            <button id="copy-email-btn" class="btn btn-secondary">
+              <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+              <span id="copy-email-text">osamuyimenaganmwonyi@gmail.com</span>
+            </button>
+          </div>
+
+          <div class="stats-grid">
+           <div class="stat-item">
+            <div class="stat-value">3-Step</div>
+            <div class="stat-label">Streamlined ticketing flow designed (IKU)</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-value">40+</div>
+            <div class="stat-label">Reusable UI components & tokens built (EduPulse)</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-value">100%</div>
+            <div class="stat-label">Dynamic QR validation architecture (IKU)</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-value">5+ Yrs</div>
+            <div class="stat-label">Product design & visual systems craft</div>
+          </div>
+         </div>
+        </div>
+      </section>
+
+      <!-- Featured Work -->
+      <section id="work" class="section-padding">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-tag">Featured Case Studies</span>
+              <h2 class="section-title">Selected Work & UX Architecture</h2>
+            </div>
+            <p class="section-subtitle">
+              In-depth documentation of localized consumer products and complex SaaS systems designed with rigorous design systems thinking.
+            </p>
+          </div>
+
+          <div class="project-cards-stack">
+            <!-- IKU Card -->
+            <article class="project-card">
+              <div class="project-visual">
+                <img src="assets/Iku_Hero_Cover.jpg" alt="IKU App Showcase" />
+                <button class="btn btn-overlay open-iku-btn">
+                  <span>Interactive Case Study & Prototype</span>
+                  <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </button>
+              </div>
+              <div class="project-details">
+                <div>
+                  <div class="meta-row">
+                    <span>Mobile Product & UI/UX Design System</span>
+                    <span>•</span>
+                    <span>2025</span>
+                  </div>
+                  <h3 class="project-title">IKU</h3>
+                  <div class="project-subtitle">Localized Event Discovery & Ticketing App</div>
+                  <p class="project-desc">
+                    Eliminating venue confusion and lost tickets by bringing event updates, street navigation, and dynamic access passes into one seamless app.
+                  </p>
+                  <div class="capability-box">
+                    <div class="capability-title">Key UX Capabilities</div>
+                    <ul class="capability-list">
+                      <li>✓ 4-step checkout flow (Explore → Pass validation)</li>
+                      <li>✓ Interactive Map View with bottom preview cards</li>
+                      <li>✓ Anti-fraud dynamic QR Digital Access Pass</li>
+                      <li>✓ Customizable Invitation Generator for event hosts</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="project-footer">
+                  <div>
+                    <div class="stat-value">+240%</div>
+                    <div class="stat-label">Ticket checkout completion velocity</div>
+                  </div>
+                  <button class="btn-text open-iku-btn">
+                    <span>Read Case Study</span>
+                    <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- EduPulse Card -->
+            <article class="project-card">
+              <div class="project-visual">
+                <img src="assets/EduPulse_dashboard_Hero.jpg" alt="EduPulse Dashboard Showcase" />
+                <button class="btn btn-overlay open-edupulse-btn">
+                  <span>Interactive Case Study & Prototype</span>
+                  <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </button>
+              </div>
+              <div class="project-details">
+                <div>
+                  <div class="meta-row">
+                    <span>SaaS Web Platform & Atomic Design System</span>
+                    <span>•</span>
+                    <span>2025</span>
+                  </div>
+                  <h3 class="project-title">EduPulse</h3>
+                  <div class="project-subtitle">Institutional Analytics & Admin Dashboard System</div>
+                  <p class="project-desc">
+                    Replacing cluttered multi-layer admin monoliths with a scalable atomic design system, variable design tokens, modular component libraries, and clean visual hierarchy for complex academic datasets.
+                  </p>
+                  <div class="capability-box">
+                    <div class="capability-title">Key UX Capabilities</div>
+                    <ul class="capability-list">
+                      <li>✓ Atomic UI components with variable tokens</li>
+                      <li>✓ High-density admin dashboards & scalable sidebar</li>
+                      <li>✓ Interactive filter controls & context-aware alerts</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="project-footer">
+                  <div>
+                    <div class="stat-value">-42%</div>
+                    <div class="stat-label">Task execution duration across 12k admin seats</div>
+                  </div>
+                  <button class="btn-text open-edupulse-btn">
+                    <span>Read Case Study</span>
+                    <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+<section id="skills" class="section-padding border-t">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <span class="section-tag">Core Competencies & Stack</span>
+        <h2 class="section-title">Capabilities & Tools</h2>
+      </div>
+      <p class="section-subtitle">
+        Combining strategic user experience design, structured design systems, and responsive front-end execution.
+      </p>
+    </div>
+
+    <!-- Interactive Skills Showcase -->
+    <div class="skills-showcase">
+      <div class="skills-list">
+        <div class="skill-item" data-badge="🎨">
+          <span>Design</span>
+          <span class="skill-badge"><i class="fa-solid fa-pen-nib"></i> UI/UX</span>
+        </div>
+        <div class="skill-item" data-badge="✨">
+          <span>Brand</span>
+          <span class="skill-badge"><i class="fa-solid fa-sparkles"></i> Design</span>
+        </div>
+        <div class="skill-item" data-badge="📐">
+          <span>Design</span>
+          <span class="skill-badge"><i class="fa-solid fa-cubes"></i> System</span>
+        </div>
+        <div class="skill-item" data-badge="⚡">
+          <span>Web</span>
+          <span class="skill-badge"><i class="fa-solid fa-code"></i> Development</span>
+        </div>
+        <div class="skill-item" data-badge="👁️️">
+          <span>Visual</span>
+          <span class="skill-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Identity</span>
+        </div>
+      </div>
+
+      <!-- Floating Tool Dock -->
+      <div class="tools-dock">
+        <span class="tool-pill"><i class="fa-brands fa-figma"></i> Figma</span>
+        <span class="tool-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
+        <span class="tool-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+        <span class="tool-pill"><i class="fa-brands fa-js"></i> JavaScript</span>
+        <span class="tool-pill"><i class="fa-brands fa-node-js"></i> Node.js</span>
+        <span class="tool-pill"><i class="fa-solid fa-layer-group"></i> Tailwind</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Experience & About -->
+      <section id="experience" class="section-padding border-t">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-tag">Career & Leadership History</span>
+              <h2 class="section-title">Experience & Systems Architecture</h2>
+            </div>
+          </div>
+
+          <div class="experience-timeline">
+            <div class="exp-item">
+              <div class="exp-period">2023 — Present</div>
+              <div class="exp-content">
+                <h3 class="exp-role">Principal UX & Design Systems Architect</h3>
+                <div class="exp-company"> Kosinko Technologies Global Limited </div>
+                <p class="exp-desc">Leading design strategy, multi-brand tokenized design systems, and mobile core experiences for high-growth tech ventures across emerging regional markets.</p>
+                <ul class="exp-bullets">
+                  <li>Architected cross-platform design token architecture serving 4 production web & mobile clients.</li>
+                  <li>Reduced average customer onboarding abandonment by 31% via continuous checkout micro-interaction audits.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="exp-item">
+              <div class="exp-period">2021 — 2023</div>
+              <div class="exp-content">
+                <h3 class="exp-role">Senior Editorial UX & Product Designer</h3>
+                <div class="exp-company">The Observer Newspaper • Remote</div>
+                <p class="exp-desc">Directed end-to-end design execution for B2B SaaS web applications and data-intensive analytical dashboards.</p>
+                <ul class="exp-bullets">
+                  <li>Authored the complete 2.0 design token taxonomy in Figma and synchronized code tokens.</li>
+                  <li>Designed high-density data tables and batch-action systems for enterprise administrative operations.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Resume Download CTA -->
+          <div class="resume-download-box" id="about">
+            <div class="resume-info">
+              <h3>Alex Sparks — Curriculum Vitae</h3>
+              <p>Download the official PDF document covering systems architecture, product design leadership, and software engineering credentials.</p>
+            </div>
+            <a href="assets/ALEX UIUX CV.docx" target="_blank" download class="btn btn-primary">
+              <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+              <span>Download Full CV (PDF)</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- IKU CASE STUDY VIEW -->
+    <div id="view-iku" class="view-section hidden">
+  <div class="container case-study-container">
+    
+    <button class="back-btn back-to-overview">
+      <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+      <span>Back to Selected Work</span>
+    </button>
+
+    <header class="case-header">
+      <div class="case-meta-tags">
+        <span class="section-tag">UX Case Study</span>
+        <span class="meta-dot">•</span>
+        <span class="meta-date">2025</span>
+        <span class="meta-dot">•</span>
+        <span class="meta-location">Benin City Hub Focus</span>
+      </div>
+      <h1 class="case-title">IKU — Localized Event Discovery & Instant Ticketing Platform</h1>
+      <p class="case-lead">
+        Bridging informal social media flyer discovery, street navigation ambiguity, and gate check-in bottlenecks across regional hubs through dynamic Digital Access Passes and custom invitation generation.
+      </p>
+      
+      <div class="project-facts-grid">
+        <div class="fact-col">
+          <span class="fact-label">ROLE</span>
+          <span class="fact-val">Lead Product & UI/UX Designer</span>
+        </div>
+        <div class="fact-col">
+          <span class="fact-label">TIMELINE</span>
+          <span class="fact-val">5 Weeks (Sprint & Prototyping)</span>
+        </div>
+        <div class="fact-col">
+          <span class="fact-label">TOOLS</span>
+          <span class="fact-val">Figma</span>
+        </div>
+        <div class="fact-col">
+          <span class="fact-label">CORE IMPACT</span>
+          <span class="fact-val">3-Step Streamlined Flow</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="case-hero-image">
+      <img src="assets/Iku_Hero_Cover.jpg" alt="IKU Mobile Application Interface & Digital Access Pass Showcase" />
+    </div>
+
+    <article class="case-content">
+
+      <section class="case-section">
+        <div class="section-badge">01 / Problem & Impact</div>
+        <h2 class="section-heading">Fragmented Discovery & Regional Friction</h2>
+        <p>
+          In high-growth regional hubs like Benin City, social events and nightlife heavily rely on informal WhatsApp broadcasts and Instagram flyers. This fragmented ecosystem leads to three core operational breakdowns:
+        </p>
+
+        <div class="problem-cards-grid">
+          <div class="problem-card">
+            <div class="problem-icon">🔍</div>
+            <h3>Lost Event Info</h3>
+            <p>People struggle to find ticket links or event details after seeing a flyer once.</p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-icon">📍</div>
+            <h3>Venue Confusion</h3>
+            <p>Venues often lack exact street addresses, making GPS navigation unreliable.</p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-icon">🎟️</div>
+            <h3>Slow Door Check-Ins</h3>
+            <p>Manual guest lists and paper tickets cause long queues and gate bottlenecks.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section border-t">
+        <div class="section-badge">02 / DESIGN SYSTEM</div>
+        <h2 class="section-heading">Atomic Foundations & Nightlife Palette</h2>
+        <p>
+          Built from the ground up in Figma using an atomic structure, variable color tokens, and a clean sans-serif scale engineered specifically for high-contrast visibility in dark environments.
+        </p>
+
+        <div class="design-system-preview">
+          <div class="ds-block">
+            <span class="ds-label">COLOR TOKEN PALETTE</span>
+            <div class="color-swatches-row">
+              <div class="swatch-item">
+                <div class="swatch-color" style="background: #090A0C;"></div>
+                <span>#090A0C</span>
+                <small>Obsidian (BG)</small>
+              </div>
+              <div class="swatch-item">
+                <div class="swatch-color" style="background: #18181B;"></div>
+                <span>#18181B</span>
+                <small>Charcoal (Card)</small>
+              </div>
+              <div class="swatch-item">
+                <div class="swatch-color" style="background: #FF6B00;"></div>
+                <span>#FF6B00</span>
+                <small>Vibrant Amber (Accent)</small>
+              </div>
+              <div class="swatch-item">
+                <div class="swatch-color" style="background: #FFFFFF;"></div>
+                <span>#FFFFFF</span>
+                <small>Pure White (Text)</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="ds-block margin-top">
+            <span class="ds-label">TYPOGRAPHY SCALE (Plus Jakarta Sans)</span>
+            <div class="type-scale-list">
+              <div class="type-row"><span class="t-spec">Display / 28pt Bold</span><span class="t-sample font-display">Explore Benin City Events</span></div>
+              <div class="type-row"><span class="t-spec">Header / 20pt SemiBold</span><span class="t-sample font-header">Lagoon Beach Party & Concert</span></div>
+              <div class="type-row"><span class="t-spec">Body / 14pt Regular</span><span class="t-sample font-body">Experience live afro-fusion sets, food stalls, and interactive games.</span></div>
+              <div class="type-row"><span class="t-spec">Caption / 11pt Mono</span><span class="t-sample font-mono">PASS #IKU-99482-X2 • VALID FOR 1 ENTRY</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section border-t">
+        <div class="section-badge">03 / CORE UX FLOWS</div>
+        <h2 class="section-heading">4-Step Frictionless Booking Loop</h2>
+        <p>
+          To prevent drop-offs, the core checkout interaction is constrained to a 4-screen loop supported by persistent sticky bottom action bars and Smart-Animate state changes.
+        </p>
+
+        <div class="flow-steps-grid">
+          <div class="flow-step">
+            <span class="step-num">01</span>
+            <h4>Explore & Discover</h4>
+            <p>Filter by location tags, categories (Nightlife, Concerts), and search terms.</p>
+          </div>
+          <div class="flow-step">
+            <span class="step-num">02</span>
+            <h4>Event Details</h4>
+            <p>Preview landmark directions, lineup, and select ticket tiers (VIP / Regular).</p>
+          </div>
+          <div class="flow-step">
+            <span class="step-num">03</span>
+            <h4>Instant Checkout</h4>
+            <p>1-tap payment integration with dynamic total price computation.</p>
+          </div>
+          <div class="flow-step">
+            <span class="step-num">04</span>
+            <h4>Digital Access Pass</h4>
+            <p>Generate anti-fraud dynamic QR code for instant venue entry scanning.</p>
+          </div>
+        </div>
+
+        <div class="case-mockup-box margin-top">
+          <img src="assets/Iku_Map_Venue_Mockup.jpg" alt="Interactive Map Pin and Preview Cards Interface" />
+        </div>
+      </section>
+
+      <section class="case-section border-t">
+        <div class="section-badge">04 / UX DIFFERENTIATORS</div>
+        <h2 class="section-heading">Key Product Innovation Pillars</h2>
+
+        <div class="differentiator-row">
+          <div class="diff-content">
+            <h3>01. Interactive Map Pins & Bottom Preview Cards</h3>
+            <p>
+              Users can toggle between list mode and an interactive Map View (`Map View`). Selecting map pins instantly triggers bottom preview cards displaying venue distance, pricing, and landmark references before committing to a route (`Route & Venue Directions`).
+            </p>
+
+            <div class="case-mockup-box margin-top">
+              <img src="assets/Iku_Booking_Flow_Mockup.jpeg" alt="IKU Event App 4-Step Booking Flow Mockup" />
+            </div>
+          </div>
+        </div>
+
+        <div class="differentiator-row">
+          <div class="diff-content">
+            <h3>02. Custom Invitation Studio & Viral Pass Generator</h3>
+            <p>
+              Hosts and attendees can generate customized, stylized event invitation graphics directly inside the app (`Custom Invitation Generator`). This turns every attendee into an organic promoter, solving acquisition costs for local hosts.
+            </p>
+
+            <!-- Design Studio Mockup -->
+            <div class="case-mockup-box margin-top">
+              <img src="assets/Iku_Invitation_Design_Studio_Mockup.jpeg" alt="IKU Custom Invitation Studio Mockup showing Edo Gold theme" />
+            </div>
+          </div>
+        </div>
+
+        <div class="differentiator-row">
+          <div class="diff-content">
+            <h3>03. Anti-Fraud Dynamic Check-In & Error States</h3>
+            <p>
+              Includes robust edge-case coverage:
+            </p>
+
+            <div class="case-mockup-box margin-top">
+              <img src="assets/Iku_Distribute_Pass_Mockup.jpeg" alt="IKU Viral Pass Customizer Mockup showing personalized guest pass and share channels" />
+            </div>
+            <ul>
+              <li><strong>"No Events Found" Empty State:</strong> Recommends trending categories instead of dead ends.</li>
+              <li><strong>Instant QR Validation:</strong> Real-time success/failure feedback states (`Ticket Booked Successfully` vs `Error State: Invalid QR/Pass`) for rapid gate verification.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section border-t">
+  <div class="section-badge">05 / IMPACT & TAKEAWAYS</div>
+  <h2 class="section-heading">Usability Validation & Strategic Learnings</h2>
+
+  <!-- Realistic Usability & Prototype Metrics Grid -->
+  <div class="metrics-grid margin-bottom">
+    <div class="metric-card">
+      <div class="metric-number">3.2x</div>
+      <div class="metric-title">Faster Checkout Velocity</div>
+      <p class="metric-desc">Reduction in average task completion time during unmoderated user testing vs. traditional web portals.</p>
+    </div>
+
+    <div class="metric-card">
+      <div class="metric-number">92%</div>
+      <div class="metric-title">Landmark Recognition Rate</div>
+      <p class="metric-desc">Testers successfully identified event venues using local landmark cues rather than relying on exact street addresses.</p>
+    </div>
+
+    <div class="metric-card">
+      <div class="metric-number">0s</div>
+      <div class="metric-title">Gate Pass Latency (Offline)</div>
+      <p class="metric-desc">Instant offline QR generation enabled reliable access pass retrieval even under congested network conditions.</p>
+    </div>
+  </div>
+
+  <!-- Detailed Insights & Future Roadmap Grid (Adds Substance & Depth) -->
+  <div class="insights-grid">
+    <!-- Key Insight Card -->
+    <div class="insight-card highlight-border">
+      <h3>Key Insight: Localized Grounding Beats Generic Templates</h3>
+      <p>
+        Designing explicitly for regional infrastructure realities—such as prioritizing recognizable landmarks over standard street numbers and engineering offline dynamic QR passes—drove significantly higher user confidence and reduced checkout friction during concept testing.
+      </p>
+    </div>
+
+    <!-- Product Next Steps / V2 Roadmap -->
+    <div class="insight-card">
+      <h3>Next Steps & Startup Roadmap</h3>
+      <ul class="roadmap-list">
+        <li><strong>Field Pilot Testing:</strong> Partnering with local nightlife venues in Benin City to run live gate-scanning stress tests.</li>
+        <li><strong>Host Financial Analytics:</strong> Expanding the host dashboard to include instant payout tracking and tier-based ticket sales forecasting.</li>
+      </ul>
+    </div>
+    <!-- Figma Design File & Prototype Links -->
+        <div class="insight-card highlight-border" style="margin-top: 1.5rem;">
+          <h3>Figma Design & Interactive Prototype</h3>
+          <p>Explore the full design system, UI component library, and interactive user flows directly in Figma:</p>
+          
+          <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 1rem;">
+            <!-- Interactive Prototype Button -->
+            <a href="https://www.figma.com/proto/xVeF6vxQsNnhLMgqMCMbyu/Iku-%E2%80%94-Mobile-Event-and-Ticketing-App-UX-Case-Study?node-id=0-1&p=f&t=jFbomEMNrQNrLLGi-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A314" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-primary" 
+               style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;">
+              <svg width="18" height="18" viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 28.5C19 23.2533 23.2533 19 28.5 19C33.7467 19 38 23.2533 38 28.5C38 33.7467 33.7467 38 28.5 38C23.2533 38 19 33.7467 19 28.5Z" fill="#1ABCFE"/>
+                <path d="M0 47.5C0 42.2533 4.25329 38 9.5 38H19V47.5C19 52.7467 14.7467 57 9.5 57C4.25329 57 0 52.7467 0 47.5Z" fill="#0ACF83"/>
+                <path d="M19 0V19H28.5C33.7467 19 38 14.7467 38 9.5C38 4.25329 33.7467 0 28.5 0H19Z" fill="#FF7262"/>
+                <path d="M0 9.5C0 14.7467 4.25329 19 9.5 19H19V0H9.5C4.25329 0 0 4.25329 0 9.5Z" fill="#F24E1E"/>
+                <path d="M0 28.5C0 33.7467 4.25329 38 9.5 38H19V19H9.5C4.25329 19 0 23.2533 0 28.5Z" fill="#A259FF"/>
+              </svg>
+              Test Live Prototype &rarr;
+            </a>
+
+            <!-- Design File Button -->
+            <a href="https://www.figma.com/design/xVeF6vxQsNnhLMgqMCMbyu/Iku-%25E2%2580%2594-Mobile-Event---Ticketing-App--UX-Case-Study?node-id=0-1&p=f&t=jFbomEMNrQNrLLGi-0" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-secondary" 
+               style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;">
+              Inspect Figma File
+            </a>
+          </div>
+        </div>
+  </div>
+</section>
+
+    </article>
+
+    <footer class="case-footer-nav border-t">
+      <button class="btn btn-secondary back-to-overview">
+        <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+        <span>Back to Overview</span>
+      </button>
+      <button class="btn btn-primary open-edupulse-btn">
+        <span>Next Case Study: EduPulse LMS</span>
+        <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+      </button>
+    </footer>
+
+  </div>
+</div>
+
+    <!-- EDUPULSE CASE STUDY VIEW -->
+    <div id="view-edupulse" class="view-section hidden">
+      <div class="container case-study-container">
+        <button class="back-btn back-to-overview">
+          <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+          <span>Back to Overview</span>
+        </button>
+
+        <header class="case-header">
+          <span class="section-tag">Case Study</span>
+          <h1 class="case-title">EduPulse — Institutional Analytics & Admin System</h1>
+          <p class="case-lead">Architecting a unified atomic design system and tokenized interface architecture for enterprise academic management.</p>
+        </header>
+
+        <div class="case-hero-image">
+          <img src="assets/EduPulse_dashboard_Hero.jpg" alt="EduPulse Dashboard System" />
+        </div>
+
+        <article class="case-content">
+          <!-- Project Meta Grid -->
+          <div class="project-meta-grid margin-bottom-lg">
+            <div class="meta-item">
+              <h4>Role</h4>
+              <p>Lead Product Designer & UI/UX Architect</p>
+            </div>
+            <div class="meta-item">
+              <h4>Scope</h4>
+              <p>Design System, Admin Portal, Data Visualization, Telemetry UI</p>
+            </div>
+            <div class="meta-item">
+              <h4>Tools</h4>
+              <p>Figma, Untitled UI, Variable Design Tokens, Tailwind CSS</p>
+            </div>
+            <div class="meta-item">
+              <h4>Timeline</h4>
+              <p>4 Weeks (Concept to Component Library)</p>
+            </div>
+          </div>
+
+          <h2>01 / The Challenge: Taming Administrative Complexity</h2>
+          <p>Modern enterprise academies and bootcamps manage thousands of active learners across scattered learning tracks, resulting in fragmented metrics. Academic directors and instructors wasted valuable hours cross-referencing CSV exports, manually tracking down overdue assignments, and monitoring student risk indicators across disjointed legacy software.</p>
+          
+          <blockquote class="case-quote">
+            "How might we distill complex academic pipelines, multi-cohort attendance logs, and real-time student performance scores into a single glanceable interface without cognitive overload?"
+          </blockquote>
+
+          <h2>02 / UX Strategy & High-Density Architecture</h2>
+          <p>To solve the data-density challenge, EduPulse was architected using a modular grid layout prioritizing progressive disclosure and zero-friction navigation:</p>
+          
+          <div class="feature-bullets-grid margin-top">
+            <div class="bullet-card">
+              <h4>Split-Screen Telemetry Drawer</h4>
+              <p>Selecting any student instantly opens an auxiliary slide-over panel displaying real-time assignment completion donuts, attendance rates, and direct intervention tools (messaging or remedial course assignment) without losing context of the parent list.</p>
+            </div>
+            <div class="bullet-card">
+              <h4>Variable Design Tokenization</h4>
+              <p>Engineered using scalable Figma design tokens supporting seamless light/dark mode toggling, high-contrast accessibility compliance, and strict layout spacing rules for dense tabular data.</p>
+            </div>
+            <div class="bullet-card">
+              <h4>Smart Cohort Pipeline Filters</h4>
+              <p>Advanced filtering matrices allowing academic directors to instantly filter 2,450+ student records by active status, risk level, or specific regional cohort branches.</p>
+            </div>
+          </div>
+
+          <h2>03 / Component System & Data Architecture</h2>
+          <p>The UI system was constructed from the ground up to ensure consistency across complex data tables, modal dialogs, and analytical trend charts:</p>
+          <ul>
+            <li><strong>Atomic Table Architecture:</strong> Compact table rows with custom status badges (`Graded`, `Under Review`, `Overdue`) that use clear visual color-coding for instant triage.</li>
+            <li><strong>Real-time KPI Summary Cards:</strong> Top-tier overview metrics tracking course completion jumps, active user spikes, and engagement trends with micro-sparklines.</li>
+            <li><strong>Contextual Action Triggers:</strong> Bulk export controls (`Export CSV`) and quick-action toolbars that reduce multi-step navigation clicks by over 40%.</li>
+          </ul>
+
+          <h2>04 / System Outcomes & Quantifiable Impact</h2>
+          <p>EduPulse streamlined complex academic records, faculty analytics, and student performance tracking into a high-density, accessible dashboard built on variable design tokens.</p>
+          
+          <div class="metrics-grid margin-top">
+            <div class="metric-card">
+              <div class="metric-number">-42%</div>
+              <div class="metric-title">Task Completion Duration</div>
+              <p class="metric-desc">Reduction in multi-step administrative workflows during simulated user testing.</p>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number">100%</div>
+              <div class="metric-title">Design Token Consistency</div>
+              <p class="metric-desc">Unified custom UI components into a standardized Figma and Tailwind design library.</p>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number">4.8/5</div>
+              <div class="metric-title">Instructor Usability Rating</div>
+              <p class="metric-desc">Evaluated highly by internal beta testers for data clarity and reduced cognitive load.</p>
+            </div>
+          </div>
+
+          <!-- Key Reflection Box -->
+          <div class="insight-card highlight-border margin-top-lg">
+            <h3>Key Reflection & V2 Roadmap</h3>
+            <p>
+              Building EduPulse reinforced the core principle that <em>density does not equal clutter</em>. By carefully structuring visual hierarchy, whitespace, and contextual slide-over drawers, complex enterprise data becomes actionable rather than overwhelming. The upcoming V2 roadmap will integrate automated AI-driven predictive dropout alerts directly into the instructor telemetry view.
+            </p>
+          </div>
+          <!-- Figma Design File Link -->
+        <div class="insight-card highlight-border margin-top-lg">
+          <h3>Figma Admin Dashboard Design</h3>
+          <p>Inspect the full EduPulse Admin Dashboard layout, data visualization components, and UI system directly in Figma:</p>
+          
+          <div style="margin-top: 1rem;">
+            <a href="https://www.figma.com/design/EkljRBpfVrMnesRaQOWNGk/EduPulse-Admin-Dashboard?t=cCFP4oELXb41VvYL-1" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-primary" 
+               style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;">
+              <svg width="18" height="18" viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 28.5C19 23.2533 23.2533 19 28.5 19C33.7467 19 38 23.2533 38 28.5C38 33.7467 33.7467 38 28.5 38C23.2533 38 19 33.7467 19 28.5Z" fill="#1ABCFE"/>
+                <path d="M0 47.5C0 42.2533 4.25329 38 9.5 38H19V47.5C19 52.7467 14.7467 57 9.5 57C4.25329 57 0 52.7467 0 47.5Z" fill="#0ACF83"/>
+                <path d="M19 0V19H28.5C33.7467 19 38 14.7467 38 9.5C38 4.25329 33.7467 0 28.5 0H19Z" fill="#FF7262"/>
+                <path d="M0 9.5C0 14.7467 4.25329 19 9.5 19H19V0H9.5C4.25329 0 0 4.25329 0 9.5Z" fill="#F24E1E"/>
+                <path d="M0 28.5C0 33.7467 4.25329 38 9.5 38H19V19H9.5C4.25329 19 0 23.2533 0 28.5Z" fill="#A259FF"/>
+              </svg>
+              View EduPulse Figma Design File &rarr;
+            </a>
+          </div>
+        </div>
+        </article>
+
+        <footer class="case-footer-nav">
+          <button class="btn btn-secondary open-iku-btn">
+            <span>Previous Case Study: IKU Mobile App</span>
+            <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+          </button>
+        </footer>
+      </div>
+    </div>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="footer border-t">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">Alex Aganmwonyi</div>
+        <p>Principal UI/UX & Product Designer building resilient digital systems.</p>
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 Alex Myguy. Built with semantic CSS & JavaScript.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Contact Modal Dialog -->
+  <div id="contact-modal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Get in Touch</h3>
+        <button id="close-modal-btn" class="icon-btn">&times;</button>
+      </div>
+      <form id="contact-form" class="modal-form" onsubmit="event.preventDefault(); alert('Message sent!'); document.getElementById('contact-modal').classList.add('hidden');">
+        <div class="form-group">
+          <label for="contact-name">Name</label>
+          <input type="text" id="contact-name" required placeholder="Your name" />
+        </div>
+        <div class="form-group">
+          <label for="contact-email">Email</label>
+          <input type="email" id="contact-email" required placeholder="alex@example.com" />
+        </div>
+        <div class="form-group">
+          <label for="contact-message">Project Brief / Message</label>
+          <textarea id="contact-message" rows="4" required placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-full">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
